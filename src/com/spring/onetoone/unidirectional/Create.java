@@ -19,9 +19,9 @@ public class Create {
 		
 		try
 		{
-			Instructor ins1=new Instructor("Richard12","L12","richard.l12@gmail.com");
+			Instructor ins1=new Instructor("Richard","L","richard.l@gmail.com");
 			
-			InstructorDetails insdet1=new InstructorDetails("Richard12 Code","Reading12");
+			InstructorDetails insdet1=new InstructorDetails("Richard Code","Reading");
 			
 			ins1.setInstructordetails(insdet1);
 			
